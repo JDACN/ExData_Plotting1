@@ -2,7 +2,7 @@
 
 # Read csv data
 
-#data <- read.csv(file = "household_power_consumption.txt" , header = TRUE , sep = ";" ,  stringsAsFactors=FALSE )
+data <- read.csv(file = "household_power_consumption.txt" , header = TRUE , sep = ";" ,  stringsAsFactors=FALSE )
 
 # Get data for 2 days only
 subdata <- subset(data,Date=="1/2/2007" | Date =="2/2/2007")
